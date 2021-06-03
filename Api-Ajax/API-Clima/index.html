@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Current Weather</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css\style.css">
+
+    <script>
+        $(document).ready(function() {
+
+
+            $('form').submit(function() {
+                // your code here (build up your url)
+                var ruta = 'http://api.openweathermap.org/data/2.5/weather?q=';
+                var nombre = $('input:text[name=ciudad]').val();
+                var key = '4ec93a07ac90f99895d43278566d42e9';
+
+                $.get(ruta + nombre + "&units=&&appid=" + key, function(datos) {
+                    var data = '';
+                    data += "<p>" + datos['name'] + ": " + datos['weather'][0]['description'] + "</p>";
+                    data += "<p>" + "Temperature: " + datos['main']['temp'] + " F</p>";
+                    data += "<p>" + "Coord:" + datos.coord.lon + " - " + datos.coord.lat + "</p>";
+                    $('#resultado').html(data);
+                }, 'json');
+                // don't forget to return false so the page doesn't refresh
+                return false;
+            });
+        });
+    </script>
+
+</head>
+
+<body>
+
+    <div id="contenedor">
+        <h2>Current Weather</h2>
+        <form method="get">
+            <label for="city_name">City:</label>
+            <input type="text" id="ciudad" name="ciudad">
+            <input type="submit" value="Submit Query">
+        </form>
+        <div id="resultado"></div>
+    </div>
+
+</body>
+
+</html>

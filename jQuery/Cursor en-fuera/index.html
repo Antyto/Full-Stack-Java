@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <title>Cursor</title>
+
+    <style type="text/css">
+        #contenedor {
+            width: 36%;
+            background-color: hotpink;
+        }
+        
+        img {
+            width: 200px;
+            height: 150px;
+            display: inline;
+            margin-inline-start: 50px;
+        }
+        
+        h1 {
+            color: indigo;
+            text-align: center;
+        }
+    </style>
+
+
+    <script>
+        $(document).ready(function() {
+            $('img').hover(function() {
+                var src1 = $(this).attr('src');
+
+                $(this).attr('src', $(this).attr('src1'));
+                $(this).attr('src1', src1);
+            });
+        });
+    </script>
+</head>
+
+<body>
+
+    <div id="contenedor">
+        <h1>Toca Elegir!</h1>
+        <img src='img\montaña.jpg' src1='img/kyoto.jpg' />
+        <img src='img\montaña.jpg' src1='img/yokohama.jpg' />
+        <img src='img\montaña.jpg' src1='img/hokkaido.jpg' />
+        <img src='img\montaña.jpg' src1='img/shinjuku.jpg' />
+
+    </div>
+</body>
+
+</html>

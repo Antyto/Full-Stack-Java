@@ -1,0 +1,271 @@
+            * {
+                padding: 10px;
+                margin: 0px;
+            }
+            
+            #marco {
+                width: 970px;
+                padding: 0px;
+            }
+            
+            #caja1 {
+                width: 940px;
+                display: inline-block;
+            }
+            
+            #net {
+                width: 100px;
+                height: 100px;
+                display: inline-block;
+                padding: 0px;
+                margin: 0px;
+                vertical-align: top;
+            }
+            
+            h1 {
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                display: inline-block;
+                width: fit-content;
+                font-weight: normal;
+                vertical-align: bottom;
+                color: rgb(80, 80, 80, 255);
+                margin-bottom: 10px;
+                font-size: 42px;
+            }
+            
+            h2 {
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                background-image: linear-gradient(rgb(39, 104, 160, 255), rgb(80, 130, 172, 255));
+                background- color: white;
+                width: 945px;
+                height: 40px;
+                font-weight: normal;
+                padding: 5px;
+                padding-left: 10px;
+                margin-top: -20px;
+                font-size: 26px;
+                text-align: left;
+                color: white;
+            }
+            
+            .blue {
+                color: rgb(58, 117, 168, 255);
+                padding: 0px;
+                display: inline;
+                vertical-align: top;
+            }
+            
+            #caja2,
+            #box {
+                display: inline-block;
+                width: 200px;
+                min-height: 300px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-weight: bold;
+                display: inline-block;
+                font-size: 14px;
+                margin: 0%;
+                padding: 0px;
+                margin-top: 10px;
+                text-align: left;
+            }
+            
+            #text {
+                color: red;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                display: inline-block;
+                width: fit-content;
+                padding: 0px;
+                margin-top: 1%;
+            }
+            
+            #button1,
+            #button2 {
+                width: 200px;
+                display: inline-block;
+                margin: 2px;
+                border-radius: 10px;
+            }
+            
+            #button1 {
+                margin-top: 20px;
+                background-color: rgb(63, 123, 175, 255);
+            }
+            
+            #button2 {
+                background-color: rgb(236, 159, 61, 255)
+            }
+            
+            #button3 {
+                background-color: teal;
+                width: 75%;
+                text-align: center;
+                padding: 5%;
+                border-radius: 10px;
+                margin-top: 10px;
+                display: inline;
+            }
+            
+            #ninja {
+                width: 40%;
+                display: inline;
+                border-top: 2px solid rgba(188, 188, 188, 255);
+            }
+            
+            h3 {
+                color: white;
+                font-style: normal;
+                font-size: large;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                width: 80%;
+                text-align: center;
+                margin-left: 8px;
+            }
+            
+            #mini {
+                padding: 0%;
+                margin-block-start: 30px;
+                display: inline-block;
+                background-image: url(images/ad_background.png);
+                text-align: center;
+                height: 280px;
+            }
+            
+            #caja3 {
+                display: inline-block;
+                width: 700px;
+                height: 600px;
+                vertical-align: top;
+                padding: 0%;
+                margin-left: 5%;
+            }
+            
+            #casa {
+                width: 3%;
+                padding: 0%;
+            }
+            
+            h5 {
+                width: fit-content;
+                display: inline;
+                padding: 0%;
+                vertical-align: top;
+                margin-top: 2px;
+                font-size: 20px;
+                font-weight: normal;
+                color: rgba(57, 116, 167, 255);
+            }
+            
+            #mini2 {
+                display: inline;
+                vertical-align: top;
+                width: 3%;
+                padding: 0%;
+                margin-left: 35px;
+            }
+            
+            #fono {
+                display: inline-block;
+                width: 5%;
+                margin-left: 360px;
+            }
+            
+            .numero {
+                font-weight: bold;
+                color: rgb(24, 180, 221, 255);
+                font-size: 20px;
+                text-align: center;
+                padding: 0%;
+            }
+            
+            #mini3 {
+                display: inline-block;
+                padding: 0.5%;
+                color: rgb(163, 163, 163, 255);
+                font-size: 10px;
+                width: 170px;
+                margin: 0%;
+                vertical-align: top;
+                text-align: center;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }
+            
+            h4 {
+                color: black;
+                font-size: 20px;
+                color: rgba(57, 116, 167, 255);
+                width: 100%;
+                width: fit-content;
+            }
+            
+            #linea {
+                border-top: 2px solid rgba(188, 188, 188, 255);
+            }
+            
+            .negrita {
+                font-weight: bold;
+                padding: 0%;
+            }
+            
+            .parrafo {
+                color: rgb(24, 180, 221, 255);
+                padding: 0%;
+                font-size: 14px;
+            }
+            
+            p {
+                font-size: 14px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }
+            
+            li {
+                font-size: 13px;
+                margin-top: 5px;
+                padding: 0%;
+                font-size: 14.5px;
+                text-align: justify;
+            }
+            
+            ul,
+            ol {
+                margin-left: 40px;
+                padding: 0%;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }
+            
+            .server {
+                width: 30%;
+                margin-left: 230px;
+            }
+            
+            #caja4 {
+                width: 693px;
+                height: 130px;
+                display: inline-block;
+                margin-inline-start: 260px;
+                padding: 0%;
+                border: 5px solid rgb(24, 180, 221, 255);
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }
+            
+            #final {
+                display: inline-block;
+                vertical-align: top;
+                color: black;
+                width: 520px;
+                padding: 0%;
+                margin-left: 10px;
+                text-align: justify;
+                font-size: 14px;
+            }
+            
+            .trinidad {
+                display: inline-block;
+                width: 20%;
+                padding: 0%;
+            }
+            
+            .cursiva {
+                padding: 0%;
+                font-style: italic;
+            }

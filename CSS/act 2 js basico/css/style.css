@@ -1,0 +1,130 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    color: white;
+    background-color: transparent;
+    padding: 0px;
+    margin: 10px 20px;
+}
+
+h2 {
+    color: white;
+    background-color: transparent;
+    padding: 0px;
+    margin: 30px 20px 0px;
+}
+
+h5 {
+    color: white;
+    margin-bottom: 2px;
+    font-weight: normal;
+    text-align: left;
+    margin: 20px 20px 20px 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 14px;
+}
+
+p {
+    color: white;
+    margin: 10px 20px;
+    padding: 0px;
+    font-size: 15px;
+    text-align: justify;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: fit-content;
+    height: fit-content;
+    line-height: 13px;
+    margin-block-end: 2px;
+}
+
+a {
+    background-color: transparent;
+    color: mediumturquoise;
+    padding: 0px;
+    font-style: underline;
+    font-size: 15px;
+    margin: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 0px;
+    text-align: left;
+}
+
+ul {
+    background-color: transparent;
+    padding: 0px;
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 10px;
+    line-height: 0px;
+    margin-block-start: 15px;
+    text-align: start;
+    width: fit-content;
+}
+
+li {
+    margin-left: 10px;
+    line-height: 13px;
+    width: max-content;
+    max-width: 690px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    font-size: 14px;
+    padding: 0px;
+    text-align: justify;
+}
+
+span {
+    color: rgb(100, 19, 100);
+}
+
+#marco {
+    background-color: rgb(31, 59, 134);
+    width: 970px;
+    height: 670px;
+    display: -webkit-inline-box;
+    padding: 10xpx 10px 10px 10px;
+    margin: 10px 10px 10px 10px;
+}
+
+#encabezado {
+    background-color: rgb(201, 42, 42);
+    height: 60px;
+    width: 950px;
+    display: -webkit-inline-box;
+    border-radius: 10px;
+    margin: 10px 10px 10px 10px;
+}
+
+#links {
+    background-color: darkcyan;
+    width: 200px;
+    height: 200px;
+    display: -webkit-inline-box;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+#texto {
+    background-color: rgb(18, 18, 37);
+    width: 730px;
+    height: 510px;
+    display: inline-block;
+    margin: 0px 0px 0px -10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+#info {
+    background-color: rgb(129, 122, 122);
+    width: 950px;
+    height: 50px;
+    display: inline-block;
+    margin-inline: -228px;
+    padding: 0px;
+    text-align: center;
+    border-radius: 10px;
+}

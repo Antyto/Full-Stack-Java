@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <title>Funciones</title>
+
+    /*Usar estas 17 funciones: .slideUp .slideToggle .fadeIn .fadeOut .before .after .append .html .attr .val .text*/
+
+
+    <style type="text/css">
+        div#contenedor {
+            width: 80%;
+            text-align: center;
+        }
+        
+        .color {
+            background-color: aqua;
+        }
+        
+        .colorL {
+            background-color: indigo;
+            color: lightcoral;
+        }
+        
+        #videos {
+            margin-bottom: 10px;
+            display: block;
+        }
+        
+        #mk {
+            display: block;
+        }
+        
+        .b1 {
+            display: block;
+        }
+    </style>
+
+    <script>
+        $('document').ready(function() {
+
+            $('button').addClass('colorL');
+
+            $('#contenedor').addClass('color');
+
+            $('#mk').hide();
+
+            $('.b1').click(function() {
+                $('#mk').toggle('slow');
+                $('#mk').show();
+            });
+
+            $('#hola').hide();
+
+            $('#hola').slideDown('slow');
+
+            $('#hola').fadeOut(1600);
+
+            $('a').click(function() {
+                alert('Estas saliendo de la pagina');
+            });
+
+        });
+    </script>
+
+
+</head>
+
+<body>
+    <div id="contenedor">
+        <h1 class='titulo'>Hola a Todos!</h1>
+        <img id='hola' src="images/hi.gif">
+
+        <a id="videos" href="https://www.youtube.com">Donde ver videos?!</a>
+
+        <button class='b1'>Click Me!</button>
+
+        <img id="mk" src="images/raiden.gif">
+
+    </div>
+
+
+</body>
+
+</html>

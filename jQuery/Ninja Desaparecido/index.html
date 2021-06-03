@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <title>Ninja Desaparecido</title>
+
+    <style type="text/css">
+        .castillo {
+            width: 200Px;
+            height: 200px;
+            padding: 10px;
+            display: inline;
+        }
+        
+        #contenedor {
+            width: 60%;
+            background-color: paleturquoise;
+        }
+        
+        #back {
+            position: absolute;
+            display: block;
+        }
+        
+        h1 {
+            text-align: center;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            color: palevioletred;
+        }
+        
+        #back {
+            border-radius: 10px;
+            background-color: rebeccapurple;
+            color: white;
+        }
+    </style>
+
+    <script>
+        $(document).ready(function() {
+            $('img').click(function() {
+                $(this).css('visibility', 'hidden');
+            });
+            $('button').click(function() {
+                $('.castillo').css('visibility', 'visible')();
+            });
+        });
+    </script>
+
+</head>
+
+<body>
+
+    <div id="contenedor">
+
+        <h1>Ninja Desaparecido</h1>
+
+        <img class="castillo" src="C:\Users\nukit\Desktop\Full Stack Java\jQuery\Ninja Desaparecido\castle.jpg">
+        <img class="castillo" src="C:\Users\nukit\Desktop\Full Stack Java\jQuery\Ninja Desaparecido\castle.jpg">
+        <img class="castillo" src="C:\Users\nukit\Desktop\Full Stack Java\jQuery\Ninja Desaparecido\castle.jpg">
+        <img class="castillo" src="C:\Users\nukit\Desktop\Full Stack Java\jQuery\Ninja Desaparecido\castle.jpg">
+        <img class="castillo" src="C:\Users\nukit\Desktop\Full Stack Java\jQuery\Ninja Desaparecido\castle.jpg">
+        <img class="castillo" src="C:\Users\nukit\Desktop\Full Stack Java\jQuery\Ninja Desaparecido\castle.jpg">
+        <img class="castillo" src="C:\Users\nukit\Desktop\Full Stack Java\jQuery\Ninja Desaparecido\castle.jpg">
+        <img class="castillo" src="C:\Users\nukit\Desktop\Full Stack Java\jQuery\Ninja Desaparecido\castle.jpg">
+        <button id="back">Restaurar</button>
+    </div>
+
+
+</body>
+
+</html>

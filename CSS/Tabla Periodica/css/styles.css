@@ -1,0 +1,163 @@
+* {
+    margin: 0%;
+    padding: 10px;
+}
+
+#contenedor {
+    width: 100%;
+    padding: 0%;
+    margin: 0%;
+    display: inline;
+}
+
+#numbers {
+    width: 100%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 0%;
+    word-spacing: 5%;
+}
+
+.nombre {
+    text-align: center;
+    padding: 0%;
+    width: 5%;
+    display: inline-block;
+    font-size: 14px;
+    color: red;
+}
+
+#row {
+    width: 1150px;
+    display: inline-block;
+    padding: 1%;
+    word-spacing: 45px;
+    margin vertical-align: top;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: lighter;
+    margin-left: 3px;
+    color: red;
+}
+
+#col {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 1%;
+    width: 1%;
+    text-align: center;
+    line-height: 66px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: lighter;
+    color: red;
+}
+
+p {
+    width: 53px;
+    border: 1px solid;
+    padding: 5%;
+    margin: 0%;
+    display: block;
+    margin-top: 1px;
+    text-align: center;
+}
+
+#elementos {
+    width: 1400px;
+    height: 400px;
+    display: inline-block;
+    margin-left: 8px;
+    padding: 0%;
+    margin-top: 20px;
+}
+
+.cb {
+    background-color: rgb(104, 155, 255, 255);
+    color: rgb(27, 24, 174, 255);
+    border: 1px solid black;
+    margin: 1px;
+}
+
+.blue,
+.red,
+.yellow {
+    margin: 0%;
+    display: inline-block;
+    width: 46px;
+    padding: 7px;
+    color: rgb(27, 24, 174, 255);
+}
+
+.cr {
+    background-color: rgb(253, 154, 152, 255);
+    margin-left: 10px;
+    font-size: 14px;
+    color: rgb(27, 24, 174, 255);
+    border: 1px solid black;
+}
+
+.letra {
+    font-weight: bolder;
+    padding: 0%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.ca {
+    background-color: rgb(254, 203, 0, 255);
+    font-size: 14px;
+    margin-left: 10px;
+    color: rgb(27, 24, 174, 255);
+    border: 1px solid black;
+    display: inline-block;
+}
+
+.lant {
+    display: inline;
+    width: 56px;
+    padding: 5%;
+    margin-left: 5px;
+    color: red;
+}
+
+.act {
+    display: inline;
+    width: 56px;
+    color: red;
+}
+
+.r1 {
+    display: inline-block;
+    margin: 0%;
+    margin-inline-end: 20px;
+}
+
+.r2 {
+    display: inline-block;
+    margin: 0%;
+    margin-inline-end: 35px;
+}
+
+.cv {
+    width: 51px;
+    padding: 0.26%;
+    margin: 0%;
+    display: inline-block;
+    margin-block-start: 20px;
+    font-size: 14px;
+    background-color: rgb(31, 202, 33, 255);
+    color: rgb(27, 24, 174, 255);
+    border: 1px solid black;
+}
+
+.cv1 {
+    width: 51px;
+    padding: 0.26%;
+    margin: 0%;
+    display: inline-block;
+    font-size: 14px;
+    text-align: center;
+    background-color: rgb(31, 202, 33, 255);
+    color: rgb(27, 24, 174, 255);
+    border: 1px solid black;
+}

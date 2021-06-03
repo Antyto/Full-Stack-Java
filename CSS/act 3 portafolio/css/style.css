@@ -1,0 +1,181 @@
+        * {
+            padding: 10px;
+            margin: 0px;
+            width: 1000px;
+        }
+        
+        #marco {
+            width: 1020px;
+            height: 1150px;
+            display: inline-block;
+            padding: 0px;
+            background-color: rgb(251, 251, 251, 255);
+        }
+        
+        #encabezado {
+            min-height: 50px;
+            width: 1000px;
+            height: 55px;
+            background-color: rgb(251, 251, 251, 255);
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            display: inline-block;
+            vertical-align: top;
+            padding: 0px;
+        }
+        
+        h1 {
+            text-align: justify;
+            max-width: 400px;
+            vertical-align: top;
+            display: inline-block;
+            text-align: left;
+            margin-left: 1%;
+        }
+        
+        h2 {
+            vertical-align: top;
+            width: 450px;
+            display: inline-block;
+            text-align: right;
+            margin-top: 7px;
+            margin-left: 60px;
+        }
+        
+        #main {
+            width: 1000px;
+            height: 1000px;
+            background-color: rgba(51, 32, 38, 255);
+            display: inline-block;
+            padding: 0px;
+            background-image: linear-gradient(rgb(31, 15, 19, 255), rgb(51, 32, 38, 255), rgb(111, 89, 100, 255), rgb(51, 32, 38, 255), rgb(31, 15, 19, 255));
+        }
+        
+        #photo {
+            width: 400px;
+            height: 260px;
+            display: inline-block;
+            margin-top: 25px;
+            border: solid rgba(192, 192, 190, 255) 5px;
+            padding: 0px;
+            margin-left: 20px;
+        }
+        
+        h3 {
+            width: 200px;
+            height: 30px;
+            padding: 10px;
+            margin-top: -274px;
+            margin-left: 450px;
+            background-image: linear-gradient(rgb(170, 170, 175, 255), rgb(136, 134, 148, 255), rgb(170, 170, 175, 255));
+            color: rgb(242, 246, 249, 255);
+            line-height: 25px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-style: bold;
+            font-size: 20px;
+        }
+        
+        p {
+            background-color: rgb(229, 219, 228, 255);
+            width: 505px;
+            height: 202px;
+            margin-left: 450px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        
+        a {
+            display: inline-block;
+            color: black;
+            width: 300px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            padding: 0px;
+            margin-top: 15px;
+        }
+        
+        .cont {
+            background-color: rgb(223, 210, 223, 255);
+            width: 302px;
+            height: 650px;
+            display: inline-block;
+            vertical-align: top;
+            padding: 0px;
+            margin-left: 20px;
+            margin-top: 30px;
+            margin-block: 30px;
+        }
+        
+        h4 {
+            display: inline-block;
+            width: 282px;
+            height: 30px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-style: bold;
+            font-size: 20px;
+            background-image: linear-gradient(rgb(170, 170, 175, 255), rgb(136, 134, 148, 255), rgb(170, 170, 175, 255));
+            color: rgb(242, 246, 249, 255);
+            padding: 10px;
+            margin-block-end: auto;
+        }
+        
+        #mode,
+        #familycontacts,
+        #fiveeleven {
+            display: inline-block;
+            width: 302px;
+            height: 150px;
+            padding: 0px;
+        }
+        
+        .text {
+            width: 281px;
+            height: 185px;
+            text-align: justify;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            background-color: rgb(223, 210, 223, 255);
+            color: black;
+            display: inline-block;
+        }
+        
+        .icons {
+            width: 35px;
+            height: 35px;
+            display: inline;
+            padding: 10px;
+            margin-left: 2px;
+        }
+        
+        button {
+            width: 140px;
+            background-color: rgb(63, 122, 95, 255);
+            text-align: center;
+            margin-left: 80px;
+            margin-top: 20px;
+            border-radius: 10px;
+            box-shadow: rgb(32, 72, 54, 255);
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 16px;
+            font-style: bold;
+            font-weight: bolder;
+            color: rgb(242, 246, 249, 255);
+            padding: 7px;
+        }
+        
+        #pie {
+            background-color: rgb(251, 251, 251, 255);
+            padding: 10px;
+            width: 980px;
+            height: 55px;
+            display: inline-block;
+            margin-top: -7px;
+            text-align: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        
+        .rrss {
+            width: 25px;
+            height: 25px;
+            display: inline-block;
+            vertical-align: middle;
+            text-align: center;
+            margin-left: 0px;
+            padding: 0px;
+        }

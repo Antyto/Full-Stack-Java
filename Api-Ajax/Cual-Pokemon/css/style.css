@@ -1,0 +1,35 @@
+* {
+    padding: 2%;
+}
+
+#contenedor {
+    width: 900px;
+    display: inline-block;
+    vertical-align: auto;
+    padding: 0%;
+    position: relative;
+}
+
+#pokemones {
+    max-height: 450px;
+    background-color: hotpink;
+    overflow: scroll;
+}
+
+#dex {
+    width: 200px;
+    height: 500px;
+    display: inline-block;
+    vertical-align: top;
+    background-color: rgb(206, 14, 14);
+    margin-top: 50px;
+    margin-left: 30px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: brown
+}
