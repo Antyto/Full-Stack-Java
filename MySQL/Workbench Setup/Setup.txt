@@ -1,0 +1,12 @@
+USE twitter 
+
+SELECT * FROM users
+
+INSERT INTO users(id, first_name, last_name, handle, birthday, created_at, updated_at)
+VALUES (6, 'Mark', 'Lee', 'Singer',  1994-08-02, NOW(), NOW())
+
+UPDATE `twitter`.`users` SET `handle` = 'Bunny' WHERE (`id` = '6');
+
+
+DELETE FROM tweets
+WHERE id = 12
