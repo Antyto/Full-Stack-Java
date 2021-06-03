@@ -23,7 +23,7 @@
                     var data = '';
                     data += "<p>" + datos['name'] + ": " + datos['weather'][0]['description'] + "</p>";
                     data += "<p>" + "Temperature: " + datos['main']['temp'] + " F</p>";
-                    data += "<p>" + "Coord:" + datos.coord.lon + " - " + datos.coord.lat + "</p>";
+                    data += "<p>" + "Coord:" + datos.coord.lon + "" + datos.coord.lat + "</p>";
                     $('#resultado').html(data);
                 }, 'json');
                 // don't forget to return false so the page doesn't refresh
