@@ -73,6 +73,7 @@ SELECT countries.name AS country_name, cities.name AS city_name, cities.district
 FROM cities
 JOIN countries ON cities.country_id = countries.id
 WHERE cities.district = "Buenos Aires" AND cities.population > 500000;
+
 -- 8. ¿Qué consulta harías para resumir el número de países en cada región? La consulta 
 -- debe mostrar el nombre de la región y el número de países. Además, la consulta debe 
 -- organizar el resultado por el número de países en orden descendente.
