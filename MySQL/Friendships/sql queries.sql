@@ -51,3 +51,4 @@ SELECT users.first_name, users.last_name, users2.first_name AS friend_first_name
 FROM users
 LEFT JOIN friendships ON users.id = friendships.person_1_id
 LEFT JOIN users AS users2 ON friendships.person_2_id = users2.id;
+
