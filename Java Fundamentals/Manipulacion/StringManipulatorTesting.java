@@ -1,7 +1,7 @@
-public class PruebaManipulacionCadenas{
+public class StringManipulatorTesting{
     public static void main(String[] args){
 
-        ManipulacionCadenas manipulator = new ManipulacionCadenas();
+    	StringManipulator manipulator = new StringManipulator();
         String str = manipulator.trimAndConcat("    Hola     ","     Mundo    ");
         System.out.println(str); // HolaMundo 
 
