@@ -1,0 +1,47 @@
+@charset "ISO-8859-1";
+
+* {
+	margin: -2px;
+	padding: 0px;
+	background-color:pink;
+}
+
+.titulo {
+	margin: auto;
+	padding-top: 25px;
+	text-align: center;
+	color: #0F809E;
+}
+
+.tablero {
+	margin: auto;
+	padding-top: 25px;
+	text-align: center;
+}
+
+.columna1 {
+	background-color:#761D44;
+	width: 70px;
+	height: 70px;
+	display: inline-block;
+	
+}
+.columna2{
+	background-color: #F33287 ;
+	width: 70px;
+	height: 70px;
+	display: inline-block;
+}
+
+.fila1 {
+	background-color: #F33287 ;
+	width: 70px;
+	height: 70px;
+	display: inline-block;
+}
+.fila2 {
+	background-color: #761D44;
+	width: 70px;
+	height: 70px;
+	display: inline-block;
+}
