@@ -1,0 +1,20 @@
+@charset "ISO-8859-1";
+
+#main {
+	background-color: pink;
+	width: 700px;
+	float:center;
+	text-align:center;
+	position: relative;
+	margin-left:100px;
+	padding:5%;
+}
+
+a {
+	display: inline-block;
+	vertical-align: top;
+	width: fit-content;
+	text-align:center;
+	margin-inline: 100px;
+	font-family:"Verdana";
+}
